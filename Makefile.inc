@@ -1,7 +1,6 @@
 # Default values.
 CXX ?= g++
 CXXWARNINGS ?= -Wall -Wextra -Wundef -pedantic
-CXXINTRINSICS ?= -march=native
 CXXFEATURES ?= -funsafe-math-optimizations -fno-math-errno -std=c++11
 CXXFLAGS ?= ${CXXWARNINGS} ${CXXINTRINSICS} ${CXXFEATURES} -g -O3
 
